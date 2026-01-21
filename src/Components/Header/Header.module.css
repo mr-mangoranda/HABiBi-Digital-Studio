@@ -6,8 +6,7 @@
     width: 55%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 20px;
     position: relative;
 }
 
@@ -76,6 +75,7 @@
     align-items: center;   
     height: 40%;
     padding-right: 10%;
+    margin: 10px 0;
 }
 
 .profiles p{
@@ -88,7 +88,7 @@
 }
 
 .profiles .img img {
-    margin-left: -10px;
+    margin-left: -20px;
     border-radius: 50%;
     border: 2px solid #1e1e1e;
 }

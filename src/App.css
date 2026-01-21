@@ -31,4 +31,27 @@ button:hover {
   padding: 100px 12%;
   display: flex;
   justify-content: space space-between;
+  background-color: rgb(255, 255, 245);
+}
+
+.section_title {
+  font-size: 60px;
+  margin: 20px 0;
+  line-height: 30px;
+  font-family: 'Syne';
+  text-align: center;
+  font-weight: 700;
+}
+
+.section_title img {
+    margin-left: 15px;
+    animation: Anim_roll 5s infinite linear;
+    margin-top: 15px;
+
+}
+
+@keyframes Anim_roll {
+    100%{
+        transform: rotate(360deg);
+    }
 }
