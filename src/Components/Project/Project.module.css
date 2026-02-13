@@ -1,0 +1,86 @@
+.projectWrapper {
+    background-color: #1e1e1e;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projectWrapper h1 {
+    color: #fdfde1;
+    line-height: 50px;
+}
+
+.projectWrapper h1 img{
+    height: 45px;
+}
+
+.projectContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+    overflow-x: scroll ;
+    overflow-y: hidden ;
+}
+
+.projectContainer::-webkit-scrollbar {
+    background-color: #1e1e1e;
+}
+
+.projectContainer::-webkit-scrollbar-thumb {
+    background-color: #fdfde1;
+}
+.projectContainer .projectCard {
+    height: 320px;
+    min-width: 500px;
+    position: relative;
+}
+
+.projectContainer .projectCard::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.projectContainer .projectCard h3, 
+.projectContainer .projectCard button {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    z-index: 8;
+}
+
+.projectContainer .projectCard h3 {
+    bottom: 80px;
+    font-size: 36px;
+    color: #fdfde1;
+    font-family: 'syne';
+}
+
+.projectContainer .projectCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:760px) {
+    .projectWrapper h1 {
+        line-height: 30px;
+    }
+    .projectWrapper h1 img {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .projectWrapper h1 {
+        line-height: 40px;
+    }
+    .projectWrapper h1 img {
+        height: 25px;
+    }
+}
