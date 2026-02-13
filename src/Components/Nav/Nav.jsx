@@ -12,7 +12,7 @@ function Nav() {
     return (
         <nav className={navCSS.nav}>
             <div className={navCSS.logo}>
-                <a href="">HABiBi</a>
+                <a href="">HABiBi Studio</a>
             </div>
             <ul ref={menu}>
                 <li><a href="#">Home</a></li>

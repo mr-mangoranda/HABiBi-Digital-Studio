@@ -4,6 +4,7 @@ import Nav from "./Components/Nav/Nav"
 import Service from "./Components/Service/Service"
 import Project from "./Components/Project/Project"
 import Testimonial from './Components/Testimonial/testimonial'
+import Team from './Components/Team/Team'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Service/>
       <Project/>
       <Testimonial/>
+      <Team/>
     </>
   )
 }
