@@ -4,6 +4,8 @@ import teamCSS from './../Team/Team.module.css'
 import Team1 from './../../assets/team1.png'
 import Team2 from './../../assets/team2.png'
 import Team3 from './../../assets/team3.png'
+import Team4 from './../../assets/team4.png'
+import Team5 from './../../assets/team5.png'
 
 import star from './../../assets/star.png'
 
@@ -51,18 +53,18 @@ function Team () {
 
                 <div className={teamCSS.card}>
                     <img src={Team3} alt="" />
-                    <h3>Renalyn Bas</h3>
+                    <h3>Renalyn Bascones</h3>
                     <p>Creative Team</p>
                 </div>
 
                 <div className={teamCSS.card}>
-                        <img src={Team1} alt="" />
+                        <img src={Team4} alt="" />
                         <h3>Marjaan Taher</h3>
                         <p>Creative Team</p>
                 </div>
 
                 <div className={teamCSS.card}>
-                        <img src={Team3} alt="" />
+                        <img src={Team5} alt="" />
                         <h3>Lacsaman Abdullah</h3>
                         <p>Creative Team</p>
                 </div>

@@ -5,6 +5,8 @@ import Service from "./Components/Service/Service"
 import Project from "./Components/Project/Project"
 import Testimonial from './Components/Testimonial/Testimonial'
 import Team from './Components/Team/Team'
+import Contact from './Components/Contact/Contact'
+
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
       <Project/>
       <Testimonial/>
       <Team/>
+      <Contact/>
     </>
   )
 }
