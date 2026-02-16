@@ -14,7 +14,7 @@ import { Autoplay } from 'swiper/modules';
 
 function Testimonial () {
     return (
-        <div className={`${testimonialCSS.testimonialWrapper} section`}>
+        <div className={`${testimonialCSS.testimonialWrapper} section`} id='testimonial'>
             <h1 className="section_title">
                 Clients are Always Satisfied  <br /> with Us
                 <img src={star} alt="" />
@@ -52,10 +52,10 @@ function Testimonial () {
                             <i className="ri-star-fill"></i>
                             <i className="ri-star-fill"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo vel praesentium, pariatur quis porro hic saepe veniam excepturi tenetur, unde officiis fuga esse, quisquam vitae cumque ab dicta alias.</p>
+                        <p>HABiBi Digital Studio exceeded our expectations. Their team understood our vision immediately and delivered designs that were both creative and strategic. The entire process was smooth, professional, and on time.</p>
                         <div className={testimonialCSS.profile}>
                             <img src={user1} alt="" />
-                            <h3>Sir Lucman <span>Faculty</span></h3>
+                            <h3>Sir Lucman <span>CICS Faculty</span></h3>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -69,7 +69,7 @@ function Testimonial () {
                             <i className="ri-star-fill"></i>
                             <i className="ri-star-fill"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo vel praesentium, pariatur quis porro hic saepe veniam excepturi tenetur, unde officiis fuga esse, quisquam vitae cumque ab dicta alias.</p>
+                        <p>Working with HABiBi Digital Studio was a great experience. Their attention to detail and commitment to quality truly stand out. The final output was modern, polished, and exactly what we needed for our brand.</p>
                         <div className={testimonialCSS.profile}>
                             <img src={user2} alt="" />
                             <h3>Sir Jojo <span>Fuculty</span></h3>
@@ -86,7 +86,7 @@ function Testimonial () {
                             <i className="ri-star-fill"></i>
                             <i className="ri-star-fill"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo vel praesentium, pariatur quis porro hic saepe veniam excepturi tenetur, unde officiis fuga esse, quisquam vitae cumque ab dicta alias.</p>
+                        <p>The team at HABiBi Digital Studio is highly professional and creative. They listened carefully to our ideas and transformed them into a design that perfectly represents our brand. We’re extremely satisfied with the results and would gladly work with them again. </p>
                         <div className={testimonialCSS.profile}>
                             <img src={user3} alt="" />
                             <h3>Sir Mubin <span>Fuculty</span></h3>

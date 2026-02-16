@@ -11,7 +11,7 @@ import arrow from './../../assets/arrow.png'
 
 function Header () {
     return (
-        <div className={`${headerCSS.headerWrapper} section`}>
+        <div className={`${headerCSS.headerWrapper} section`} id="header">
             <div className={headerCSS.content}>
                 <h1>A Creative
                     <img src={star} alt="" /> <br />

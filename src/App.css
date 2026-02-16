@@ -8,6 +8,8 @@
   font-family: 'Inter';
   text-decoration: none;
   list-style: none;
+
+  scroll-behavior: smooth;
 }
 
 button {

@@ -6,13 +6,13 @@ import arrow from './../../assets/arrow.png'
 
 function Contact () {
     return (
-        <div className={`${contactCSS.contactWrapper} section`}>
+        <div className={`${contactCSS.contactWrapper} section`} id='contact'>
             <div className={contactCSS.Content}>
                 <h1 className="section_title">
                     Let's Start <br /> Project Together <img src={star} alt="" />
                 </h1>      
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum labore maiores quod eligendi quibusdam, veniam distinctio! Veritatis quisquam, cum quaerat explicabo neque atque. At nisi molestias nihil, facere ducimus mollitia!</p>
+                <p>We believe every successful project begins with strong collaboration. Whether you're building your brand, improving your online presence, or launching something new, our team is ready to bring your ideas to life with strategy, creativity, and precision. Let’s work together to create impactful digital solutions that move your business forward.</p>
 
                 <div className={contactCSS.socialWrapper}>
                     <div className={contactCSS.detail}>

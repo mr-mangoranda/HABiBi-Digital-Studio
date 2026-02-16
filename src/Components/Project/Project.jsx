@@ -10,7 +10,7 @@ import project5 from "./../../assets/project05.jpg"
 
 function Project() {
     return (
-        <div className={`${projectCSS.projectWrapper} section`}>
+        <div className={`${projectCSS.projectWrapper} section`} id="project">
             <h1 className="section_title">
                 Have A Wide Range of <br /> Creative Projects
                 <img src={star} alt="" />

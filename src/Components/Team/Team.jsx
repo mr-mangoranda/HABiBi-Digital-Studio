@@ -11,7 +11,7 @@ import star from './../../assets/star.png'
 
 function Team () {
     return (
-        <div className={teamCSS.teamWrapper}>
+        <div className={teamCSS.teamWrapper} id='team'>
             <div className={teamCSS.anim_text}>
                 <div>
                     <h3>Meet Our Team <img src={star} alt="" /></h3>
